@@ -1,0 +1,40 @@
+[0m17:23:58.087165 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC09BC6250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC09BC74D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC09BC7290>]}
+
+
+============================== 17:23:58.108172 | 89a8e075-fd5e-474b-b878-13de56a2979b ==============================
+[0m17:23:58.108172 [info ] [MainThread]: Running with dbt=1.7.9
+[0m17:23:58.110172 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Ahcene\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:23:58.112172 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/Ahcene/.dbt')}
+[0m17:23:58.113173 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m17:24:28.628525 [debug] [MainThread]: Starter project path: c:\Users\Ahcene\Documents\Notebook\.venv\Lib\site-packages\dbt\include\starter_project
+[0m17:24:28.671986 [info ] [MainThread]: 
+Your new dbt project "dbt_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:24:28.674995 [info ] [MainThread]: Setting up your profile.
+[0m17:24:39.884979 [info ] [MainThread]: Profile dbt_demo written to C:\Users\Ahcene\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m17:24:39.887982 [debug] [MainThread]: Command `dbt init` succeeded at 17:24:39.887982 after 41.90 seconds
+[0m17:24:39.888961 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC02BB6310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC02F66390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC09BDA550>]}
+[0m17:24:39.890961 [debug] [MainThread]: Flushing usage events
+[0m20:36:20.868608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A875A450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A896AE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A896B0D0>]}
+
+
+============================== 20:36:20.977971 | 1446a6a2-cf03-4e11-b876-99ea15d6d8c0 ==============================
+[0m20:36:20.977971 [info ] [MainThread]: Running with dbt=1.7.9
+[0m20:36:20.993597 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Ahcene\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m20:44:22.344577 [info ] [MainThread]: A project called dbt_demo already exists here.
+[0m20:44:22.357646 [debug] [MainThread]: Command `dbt init` succeeded at 20:44:22.352622 after 482.14 seconds
+[0m20:44:22.365656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A8A40750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A1B56390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A1F03090>]}
+[0m20:44:22.374655 [debug] [MainThread]: Flushing usage events
